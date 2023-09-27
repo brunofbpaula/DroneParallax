@@ -1,4 +1,4 @@
-import Sound from '../../../arq/audio/GuardioesGalaxia'
+import GuardioesGalaxia from '../../../arq/audio/GuardioesGalaxia.mp3'
 import '../Lojas.css'
 
 export default function Audio(){
@@ -7,10 +7,10 @@ export default function Audio(){
         <>
             <div className="box ladoA">
                 <audio id="Audio Guardiões" controls>
-                    <source scr={Sound} type="audio/mpeg"/>
-                    Este navegador não suporta a mídia
+                <source src={GuardioesGalaxia} type="audio/mpeg" />
+                Este navegador não suporta a mídia
                 </audio>
-            </div>        
+            </div>       
         </>
     )
 }
