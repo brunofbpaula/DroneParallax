@@ -13,3 +13,21 @@
 	font-family: 'PermanentMarker-Regular';
 	src:  url(../fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
 }
+
+h1{
+	font-size: 5em;
+	font-family: 'PermanentMarker-Regular', sans-serif ;
+}
+
+h3{
+	font-size: 2em;
+	font-family: 'LexendExa-VariableFont_wght', sans-serif ;
+}
+
+body{
+	font-family: 'Roboto-Light', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff;
+}
