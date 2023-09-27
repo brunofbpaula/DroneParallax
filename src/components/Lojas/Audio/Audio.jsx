@@ -6,7 +6,7 @@ export default function Audio(){
     return(
         <>
             <div className="box ladoA">
-                <audio constrols>
+                <audio controls>
                     <source scr={sound} type="audio/mpeg"/>
                     Este navegador não suporta a mídia
                 </audio>
