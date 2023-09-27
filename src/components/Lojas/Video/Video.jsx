@@ -1,4 +1,5 @@
 import vid from '../../../arq/video/BabyGrootDançando.mp4'
+import '../Lojas.css'
 
 export default function Video(){
 

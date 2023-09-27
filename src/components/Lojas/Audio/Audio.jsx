@@ -1,4 +1,5 @@
 import sound from '../../../arq/audio/GuardioesGalaxia.mp3'
+import '../Lojas.css'
 
 export default function Audio(){
 

@@ -1,5 +1,6 @@
 import Audio from './Audio/Audio'
 import Video from './Video/Video'
+import './Lojas.css'
 
 export default function Lojas(){
 
