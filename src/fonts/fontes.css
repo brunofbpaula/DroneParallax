@@ -24,6 +24,11 @@ h3{
 	font-family: 'LexendExa-VariableFont_wght', sans-serif ;
 }
 
+h1, h3{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
 body{
 	font-family: 'Roboto-Light', sans-serif;
 	font-size: 14px;
