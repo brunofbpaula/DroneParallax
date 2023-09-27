@@ -1,4 +1,7 @@
 import './Conteudo.css'
+import Phantom from './Phantom/Phantom'
+import Mavic from '../Conteudo/Mavic/Mavic'
+import Inspire from '../Conteudo/Inspire/Inspire'
 
 export default function Conteudo(){
 
@@ -12,31 +15,11 @@ export default function Conteudo(){
 				<p className="text-center lead">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error accusantium laborum, hic nisi soluta quasi veritatis quod quam, architecto voluptatibus quibusdam quisquam consequuntur eum doloribus impedit aperiam nobis libero!
 				</p>
-
-				
-				<div className="box">
-					<div className="thumbnail">
-						<img src="img/02.png" alt=""/>
-						<div className="text-center">
-							<h3>Phantom</h3>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, illum!</p>
-						</div>
-					</div>
-				</div>
-				<div className="box">
-					<div className="thumbnail">
-						<img src="img/03.png" alt=""/>
-						<div className="text-center">
-							<h3>Mavic</h3>
-							<p>Corporis quas obcaecati quia provident accusantium officiis eaque repudiandae error.</p>
-						</div>
-					</div>
-				</div>
-				
+				<Phantom/>
+				<Mavic/>
+				<Inspire/>
 			</div>	
 		</section>
         </>
-
     )
-
 }

@@ -1,4 +1,4 @@
-import './Conteudo.css'
+import '../Conteudo.css'
 import inspire from '../../../img/04.png'
 
 export default function Inspire(){
